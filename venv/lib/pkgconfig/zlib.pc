@@ -1,0 +1,13 @@
+prefix=/workspaces/codespaces-flask/venv
+exec_prefix=/workspaces/codespaces-flask/venv
+libdir=/workspaces/codespaces-flask/venv/lib
+sharedlibdir=/workspaces/codespaces-flask/venv/lib
+includedir=/workspaces/codespaces-flask/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
