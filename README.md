@@ -38,3 +38,8 @@ git add  .
 git commit -m "First Commit"
 git push -u origin main
 ~~~
+
+##Remove venv file from github if already commited
+~~~
+git rm -r --cached venv
+~~~
